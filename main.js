@@ -216,7 +216,7 @@ function stockAbrigos(carrito) {
                 carrito.push(abrigos[3]);
                 break;
             case 5:
-                carrito.push(pantalones[4]);
+                carrito.push(abrigos[4]);
                 break;
             case 6: 
                 alert("Volviendo atras..."); 
