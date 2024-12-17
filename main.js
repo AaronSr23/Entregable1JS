@@ -6,7 +6,6 @@ const carritoCompra = [];
 
 //Menu de compras:
 
-
 let opcion;
 let controlMenu = true;
 
@@ -88,7 +87,6 @@ function stockRemeras(carrito) {
                 alert("Ingrese una opcion correcta");
                 break;
         }
-        //SALIR?
         do {
         bandera = prompt("Desea salir?\n1.Si\n2.No");
         bandera = parseInt(bandera);
@@ -156,7 +154,6 @@ function stockPantalones(carrito) {
                 alert("Ingrese una opcion correcta");
                 break;
         }
-        //SALIR?
         do {
         bandera = prompt("Desea salir?\n1.Si\n2.No");
         bandera = parseInt(bandera);
@@ -225,7 +222,6 @@ function stockAbrigos(carrito) {
                 alert("Ingrese una opcion correcta");
                 break;
         }
-        //SALIR?
         do {
         bandera = prompt("Desea salir?\n1.Si\n2.No");
         bandera = parseInt(bandera);
